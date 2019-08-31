@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickButtonAlertKeyBoardView/ViewController.m"
+            timestampString = "586175523.340269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-keyBoardWillShow:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController keyBoardWillShow:]"
+                  moduleName = "ClickButtonAlertKeyBoardView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Demo%E5%A4%87%E4%BB%BD/%E7%82%B9%E5%87%BB%E6%8C%89%E9%92%AE%E5%BC%B9%E5%87%BA%E9%94%AE%E7%9B%98/ClickButtonAlertKeyBoardView/ClickButtonAlertKeyBoardView/ViewController.m"
+                  timestampString = "586174855.34173"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[ViewController keyBoardWillShow:]_block_invoke"
+                  moduleName = "ClickButtonAlertKeyBoardView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Demo%E5%A4%87%E4%BB%BD/%E7%82%B9%E5%87%BB%E6%8C%89%E9%92%AE%E5%BC%B9%E5%87%BA%E9%94%AE%E7%9B%98/ClickButtonAlertKeyBoardView/ClickButtonAlertKeyBoardView/ViewController.m"
+                  timestampString = "586174855.3431441"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s"
+                  moduleName = "ClickButtonAlertKeyBoardView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Demo%E5%A4%87%E4%BB%BD/%E7%82%B9%E5%87%BB%E6%8C%89%E9%92%AE%E5%BC%B9%E5%87%BA%E9%94%AE%E7%9B%98/ClickButtonAlertKeyBoardView/ClickButtonAlertKeyBoardView/ViewController.m"
+                  timestampString = "586174855.344473"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

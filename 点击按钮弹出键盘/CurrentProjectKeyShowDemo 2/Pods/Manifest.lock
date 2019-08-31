@@ -1,0 +1,20 @@
+PODS:
+  - FSTextView (1.8)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FSTextView
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FSTextView
+    - Masonry
+
+SPEC CHECKSUMS:
+  FSTextView: 9e2ca07bb6bb0fb7e77b49b2717adf81f3c620b5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 141b428d078b4e19305113252520765a6676eaef
+
+COCOAPODS: 1.7.1

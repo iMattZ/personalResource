@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DEEFCB22F04E5000A652A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFCA22F04E5000A652A1 /* AppDelegate.m */; };
+		04DEEFCE22F04E5000A652A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFCD22F04E5000A652A1 /* ViewController.m */; };
+		04DEEFD122F04E5000A652A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFCF22F04E5000A652A1 /* Main.storyboard */; };
+		04DEEFD322F04E5100A652A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFD222F04E5100A652A1 /* Assets.xcassets */; };
+		04DEEFD622F04E5100A652A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFD422F04E5100A652A1 /* LaunchScreen.storyboard */; };
+		04DEEFD922F04E5100A652A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFD822F04E5100A652A1 /* main.m */; };
+		04DEEFE322F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFE222F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.m */; };
+		04DEEFEE22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFED22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DEEFDF22F04E5100A652A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DEEFBE22F04E5000A652A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DEEFC522F04E5000A652A1;
+			remoteInfo = ClickButtonAlertKeyBoardView;
+		};
+		04DEEFEA22F04E5100A652A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DEEFBE22F04E5000A652A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DEEFC522F04E5000A652A1;
+			remoteInfo = ClickButtonAlertKeyBoardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DEEFC622F04E5000A652A1 /* ClickButtonAlertKeyBoardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickButtonAlertKeyBoardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEEFC922F04E5000A652A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DEEFCA22F04E5000A652A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DEEFCC22F04E5000A652A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04DEEFCD22F04E5000A652A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04DEEFD022F04E5000A652A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DEEFD222F04E5100A652A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DEEFD522F04E5100A652A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DEEFD722F04E5100A652A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DEEFD822F04E5100A652A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DEEFDE22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickButtonAlertKeyBoardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEEFE222F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickButtonAlertKeyBoardViewTests.m; sourceTree = "<group>"; };
+		04DEEFE422F04E5100A652A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DEEFE922F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickButtonAlertKeyBoardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEEFED22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickButtonAlertKeyBoardViewUITests.m; sourceTree = "<group>"; };
+		04DEEFEF22F04E5100A652A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DEEFC322F04E5000A652A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEFDB22F04E5100A652A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEFE622F04E5100A652A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DEEFBD22F04E5000A652A1 = {
+			isa = PBXGroup;
+			children = (
+				04DEEFC822F04E5000A652A1 /* ClickButtonAlertKeyBoardView */,
+				04DEEFE122F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests */,
+				04DEEFEC22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests */,
+				04DEEFC722F04E5000A652A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DEEFC722F04E5000A652A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEFC622F04E5000A652A1 /* ClickButtonAlertKeyBoardView.app */,
+				04DEEFDE22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.xctest */,
+				04DEEFE922F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DEEFC822F04E5000A652A1 /* ClickButtonAlertKeyBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEFC922F04E5000A652A1 /* AppDelegate.h */,
+				04DEEFCA22F04E5000A652A1 /* AppDelegate.m */,
+				04DEEFCC22F04E5000A652A1 /* ViewController.h */,
+				04DEEFCD22F04E5000A652A1 /* ViewController.m */,
+				04DEEFCF22F04E5000A652A1 /* Main.storyboard */,
+				04DEEFD222F04E5100A652A1 /* Assets.xcassets */,
+				04DEEFD422F04E5100A652A1 /* LaunchScreen.storyboard */,
+				04DEEFD722F04E5100A652A1 /* Info.plist */,
+				04DEEFD822F04E5100A652A1 /* main.m */,
+			);
+			path = ClickButtonAlertKeyBoardView;
+			sourceTree = "<group>";
+		};
+		04DEEFE122F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEFE222F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.m */,
+				04DEEFE422F04E5100A652A1 /* Info.plist */,
+			);
+			path = ClickButtonAlertKeyBoardViewTests;
+			sourceTree = "<group>";
+		};
+		04DEEFEC22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEFED22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.m */,
+				04DEEFEF22F04E5100A652A1 /* Info.plist */,
+			);
+			path = ClickButtonAlertKeyBoardViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DEEFC522F04E5000A652A1 /* ClickButtonAlertKeyBoardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEEFF222F04E5100A652A1 /* Build configuration list for PBXNativeTarget "ClickButtonAlertKeyBoardView" */;
+			buildPhases = (
+				04DEEFC222F04E5000A652A1 /* Sources */,
+				04DEEFC322F04E5000A652A1 /* Frameworks */,
+				04DEEFC422F04E5000A652A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickButtonAlertKeyBoardView;
+			productName = ClickButtonAlertKeyBoardView;
+			productReference = 04DEEFC622F04E5000A652A1 /* ClickButtonAlertKeyBoardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DEEFDD22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEEFF522F04E5100A652A1 /* Build configuration list for PBXNativeTarget "ClickButtonAlertKeyBoardViewTests" */;
+			buildPhases = (
+				04DEEFDA22F04E5100A652A1 /* Sources */,
+				04DEEFDB22F04E5100A652A1 /* Frameworks */,
+				04DEEFDC22F04E5100A652A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DEEFE022F04E5100A652A1 /* PBXTargetDependency */,
+			);
+			name = ClickButtonAlertKeyBoardViewTests;
+			productName = ClickButtonAlertKeyBoardViewTests;
+			productReference = 04DEEFDE22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DEEFE822F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEEFF822F04E5100A652A1 /* Build configuration list for PBXNativeTarget "ClickButtonAlertKeyBoardViewUITests" */;
+			buildPhases = (
+				04DEEFE522F04E5100A652A1 /* Sources */,
+				04DEEFE622F04E5100A652A1 /* Frameworks */,
+				04DEEFE722F04E5100A652A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DEEFEB22F04E5100A652A1 /* PBXTargetDependency */,
+			);
+			name = ClickButtonAlertKeyBoardViewUITests;
+			productName = ClickButtonAlertKeyBoardViewUITests;
+			productReference = 04DEEFE922F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DEEFBE22F04E5000A652A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04DEEFC522F04E5000A652A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					04DEEFDD22F04E5100A652A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 04DEEFC522F04E5000A652A1;
+					};
+					04DEEFE822F04E5100A652A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 04DEEFC522F04E5000A652A1;
+					};
+				};
+			};
+			buildConfigurationList = 04DEEFC122F04E5000A652A1 /* Build configuration list for PBXProject "ClickButtonAlertKeyBoardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DEEFBD22F04E5000A652A1;
+			productRefGroup = 04DEEFC722F04E5000A652A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DEEFC522F04E5000A652A1 /* ClickButtonAlertKeyBoardView */,
+				04DEEFDD22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests */,
+				04DEEFE822F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DEEFC422F04E5000A652A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEEFD622F04E5100A652A1 /* LaunchScreen.storyboard in Resources */,
+				04DEEFD322F04E5100A652A1 /* Assets.xcassets in Resources */,
+				04DEEFD122F04E5000A652A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEFDC22F04E5100A652A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEFE722F04E5100A652A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DEEFC222F04E5000A652A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEEFCE22F04E5000A652A1 /* ViewController.m in Sources */,
+				04DEEFD922F04E5100A652A1 /* main.m in Sources */,
+				04DEEFCB22F04E5000A652A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEFDA22F04E5100A652A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEEFE322F04E5100A652A1 /* ClickButtonAlertKeyBoardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEFE522F04E5100A652A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEEFEE22F04E5100A652A1 /* ClickButtonAlertKeyBoardViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DEEFE022F04E5100A652A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DEEFC522F04E5000A652A1 /* ClickButtonAlertKeyBoardView */;
+			targetProxy = 04DEEFDF22F04E5100A652A1 /* PBXContainerItemProxy */;
+		};
+		04DEEFEB22F04E5100A652A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DEEFC522F04E5000A652A1 /* ClickButtonAlertKeyBoardView */;
+			targetProxy = 04DEEFEA22F04E5100A652A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DEEFCF22F04E5000A652A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEEFD022F04E5000A652A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DEEFD422F04E5100A652A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEEFD522F04E5100A652A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DEEFF022F04E5100A652A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DEEFF122F04E5100A652A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DEEFF322F04E5100A652A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNAB72QF8C;
+				INFOPLIST_FILE = ClickButtonAlertKeyBoardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hime.ClickButtonAlertKeyBoardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DEEFF422F04E5100A652A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNAB72QF8C;
+				INFOPLIST_FILE = ClickButtonAlertKeyBoardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hime.ClickButtonAlertKeyBoardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DEEFF622F04E5100A652A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickButtonAlertKeyBoardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hime.ClickButtonAlertKeyBoardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickButtonAlertKeyBoardView.app/ClickButtonAlertKeyBoardView";
+			};
+			name = Debug;
+		};
+		04DEEFF722F04E5100A652A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickButtonAlertKeyBoardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hime.ClickButtonAlertKeyBoardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickButtonAlertKeyBoardView.app/ClickButtonAlertKeyBoardView";
+			};
+			name = Release;
+		};
+		04DEEFF922F04E5100A652A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickButtonAlertKeyBoardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hime.ClickButtonAlertKeyBoardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickButtonAlertKeyBoardView;
+			};
+			name = Debug;
+		};
+		04DEEFFA22F04E5100A652A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickButtonAlertKeyBoardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hime.ClickButtonAlertKeyBoardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickButtonAlertKeyBoardView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DEEFC122F04E5000A652A1 /* Build configuration list for PBXProject "ClickButtonAlertKeyBoardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEEFF022F04E5100A652A1 /* Debug */,
+				04DEEFF122F04E5100A652A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEEFF222F04E5100A652A1 /* Build configuration list for PBXNativeTarget "ClickButtonAlertKeyBoardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEEFF322F04E5100A652A1 /* Debug */,
+				04DEEFF422F04E5100A652A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEEFF522F04E5100A652A1 /* Build configuration list for PBXNativeTarget "ClickButtonAlertKeyBoardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEEFF622F04E5100A652A1 /* Debug */,
+				04DEEFF722F04E5100A652A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEEFF822F04E5100A652A1 /* Build configuration list for PBXNativeTarget "ClickButtonAlertKeyBoardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEEFF922F04E5100A652A1 /* Debug */,
+				04DEEFFA22F04E5100A652A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DEEFBE22F04E5000A652A1 /* Project object */;
+}
